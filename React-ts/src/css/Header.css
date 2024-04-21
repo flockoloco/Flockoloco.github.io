@@ -1,0 +1,45 @@
+.button {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50%;
+  cursor: pointer !important;
+  transition-duration: .3s;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.13);
+  border: 2px solid black;
+}
+
+.button img{
+  max-height: 60%;
+}
+
+.button:hover {
+  background-color: rgb(80, 80, 80);
+  animation: pulse_414 0.4s alternate infinite ease-in-out;
+}
+
+.button:active {
+  transform: scale(0.8);
+  animation: none;
+}
+
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  top: 0%;
+  width: 100%;
+  position: sticky;
+  z-index: 1;
+  background-color: #242424;
+}
+
+.buttonContainer div
+{
+  padding: 1vw;  
+}
+  
