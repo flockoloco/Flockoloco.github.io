@@ -1,0 +1,50 @@
+.containerCards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 400px;
+    height: fit-content;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(44, 44, 44);
+    transition-duration: .3s;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.13);
+    border: 2px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1.6vmin !important;
+  }
+
+  .card:hover {
+    background-color: #202020;
+    
+  }
+
+.card img{
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+    background-color: rgb(44, 44, 44);
+    padding: 5px;
+}
+
+.card h3, .card p{
+    margin: auto; 
+    width: auto;
+    font-size: 1.6vmin !important;
+    text-wrap: nowrap;
+}
+
+
+.card legend{
+    padding-left: 10px;
+    font-size: small;
+}

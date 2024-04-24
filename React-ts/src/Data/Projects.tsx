@@ -17,7 +17,7 @@ export const work = [
     id: 'Autofilled in ProjectsOnScreen map work',
     title: "My Greatest Strength (2D Unity)",
     company: "Erasmus at Cologne University of Applied Sciences",
-    location: 'Koln - Germany',
+    location: 'Cologne - Germany',
     description:<>
                 <li>Implemented Dialogue system for dynamic storytelling experience</li>
                 <li>Customized Yarn Spinner extension to align with project specifications</li>

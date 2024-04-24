@@ -19,10 +19,6 @@ export default function progressComponent()
         <h3>{works.company}</h3>
         <p>{works.description}</p>
       </div>
-      
-      <div className='left-panel'>
-        <h3>{works.year}</h3>
-      </div>
 
       <div className='center-panel' style={{ padding: "0px"}}>
         <div className="progress-bar ">  
@@ -31,7 +27,8 @@ export default function progressComponent()
       </div>
 
       <div className='right-panel'>
-        {works.video}
+        <h2>{works.location}</h2>
+        <h3>{works.year}</h3>
       </div>
 
     </section>
@@ -40,7 +37,7 @@ export default function progressComponent()
   useOnScreen();
 
   return(
-    <div style={{backgroundColor: "#222222", padding: '2rem'}}>
+    <div style={{padding: '2rem'}} >
       <div className="code-loader">
         {autoFill()}
       </div>
@@ -76,7 +73,7 @@ function useOnScreen() {
         {   
           //Jesus, hope no one sees
           entry.target.classList.add('animationIn');
-          entry.target.children[2].children[0].children[0].classList.add('animationOpacity');
+          entry.target.children[1].children[0].children[0].classList.add('animationOpacity');
         }
         /*if(!entry.isIntersecting){
           entry.target.children[2].children[0].children[0].style.animation = "out 1s forwards";

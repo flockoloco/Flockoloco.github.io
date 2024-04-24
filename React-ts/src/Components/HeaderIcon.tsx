@@ -27,7 +27,7 @@ export default function headerIcon()
     );
     
     return(
-        <div style={{padding: '2rem', display: 'contents'}} >
+        <div style={{padding: '2rem'}} >
             <h1><ReactTyped
                 strings={["My name is Arthur", "I'm a Developer", "This is my Portfolio"]}
                 typeSpeed={80}
