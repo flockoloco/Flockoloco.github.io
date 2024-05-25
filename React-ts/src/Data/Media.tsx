@@ -48,6 +48,6 @@ export const media = [
         id: 'Autofilled in ProjectsOnScreen map work',
         nome: 'cv',
         icon: cv,
-        src: 'https://drive.google.com/file/d/1L1ZhcWIvEK5eTXk1X1nx7C-TsFpkZWd-/view?usp=drive_link',
+        src: 'https://drive.google.com/file/d/1JxJLX7mdFB4JZZK2y0o6RlM34_dnaNOt/view?usp=sharing',
     },
 ]
